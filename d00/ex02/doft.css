@@ -1,0 +1,101 @@
+body{
+  background-color: #4F4F4F;
+  height: 98vh;
+}
+
+.header{
+  margin: 25px auto;
+  padding: 0.5%;
+  width: 75%;
+  height: 11.5%;
+  background-color: #909090;
+  border-radius: 13px;
+  box-shadow: 13px 13px 13px black;
+}
+
+.header_content{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#dayof42{
+  box-sizing: border-box;
+  position: absolute;
+  width: 30%;
+  height: 100%;
+}
+
+#loupe{
+  box-sizing: border-box;
+  position: absolute;
+  width: 18%;
+  height: 125%;
+  right: 1.5%;
+}
+
+#reload{
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 15%;
+  width: 1.5%;
+}
+
+#close{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 15%;
+  width: 1.5%;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+.page{
+  margin: auto;
+  width: 73%;
+  height: 60%;
+  position: relative;
+}
+
+.pleft{
+  box-sizing: border-box;
+  padding: 1%;
+  border-radius: 13px;
+  box-shadow: 13px 13px 13px black;
+  background-color: #909090;
+  position: absolute;
+  width: 9.5%;
+  height: 70%;
+  text-align: center;
+}
+
+.pleft img{
+  width: 50%;
+  height: 19%;
+}
+
+.pmiddle{
+  border-radius: 13px;
+  box-shadow: 13px 13px 13px black;
+  background-color: #909090;
+  margin: auto;
+  padding: 0.5%;
+  width: 76%;
+  height: 100%;
+}
+
+.pright{
+  border-radius: 13px;
+  box-shadow: 13px 13px 13px black;
+  background-color: #909090;
+  position: absolute;
+  width: 9.5%;
+  height: 60%;
+  right: 0;
+  top: 0;
+}
