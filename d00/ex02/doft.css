@@ -1,6 +1,7 @@
 body{
   background-color: #4F4F4F;
-  height: 95vh;
+  height: 1200px;
+  min-width: 1500px;
 }
 
 .header{
@@ -94,6 +95,22 @@ img{
   height: 100%;
 }
 
+#ikea{
+  position: absolute;
+  width: 8%;
+  height: 10%;
+  bottom: 20%;
+  left: 38%;
+}
+
+#apple{
+  position: absolute;
+  width: 12%;
+  height: 15%;
+  bottom: 22%;
+  right: 15%;
+}
+
 .pright{
   box-sizing: border-box;
   padding: 10px 1%;
@@ -127,11 +144,11 @@ img{
 
 .win{
   box-sizing: border-box;
-  position: absolute;
+  position: relative;
   width: 30%;
   height: 20%;
-  left: 10%;
-  bottom: 12%;
+  left: 200px;
+  bottom: 70px;
   background-color: #83FF8D;
   border-radius: 13px;
   box-shadow: 13px 13px 13px black;
@@ -146,13 +163,16 @@ img{
 
 span{
   font-family: sans-serif;
-  font-size: 1vw;
   letter-spacing: 1px;
+}
+
+#l1, #l2, #l3{
+  font-size: 0.8vw;
 }
 
 #ent{
   font-family: Georgia;
-  font-size: 2vw;
+  font-size: 1.8vw;
 }
 
 #ordi{
@@ -166,10 +186,11 @@ span{
 input{
   border: 3px inset;
   width: 85%;
-  height: 1vw;
+  height: 0.8vw;
 }
 
 button{
   width: 12%;
-  height: 1.3vw;
+  height: 1.1vw;
+  font-size: 0.6vw;
 }
