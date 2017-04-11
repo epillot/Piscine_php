@@ -1,0 +1,12 @@
+<- Vertex ----------------------------------------------------------------------
+La classe Vertex permet de representer un point dans l'espace avec ses coordonnees x, y, z et w ainsi que sa couleur.
+
+Une instance est construite en fournissant au minimum les 3 coordonees x, y et z.
+Si elles ne sont pas fournies, les parametre w et color auront pour valeurs respectives 1.0 et 0xffffff (blanc).
+Le parametre couleur doit etre une instance de la class Color.
+new Vertex( array ('x' => 0.0, 'y' => 0.0, 'z' => 0.0) ) par exemple.
+
+Les attributs x, y, z, w et color etant prives,
+la classe Vertex fournit des accesseurs en lecture et en écriture pour ces cinq
+attributs.
+---------------------------------------------------------------------- Vertex ->
