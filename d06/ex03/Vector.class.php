@@ -7,7 +7,7 @@ Class Vector {
 	private $_x;
 	private $_y;
 	private $_z;
-	private $_w = 0.0;
+	private $_w;
 	public static $verbose = false;
 
 	public function getX() { return $this->_x; }
@@ -26,9 +26,13 @@ Class Vector {
 			$this->_x = $dest->getX() - $orig->getX();
 			$this->_y = $dest->getY() - $orig->getY();
 			$this->_z = $dest->getZ() - $orig->getZ();
+			if (array_key_exists('w', $kwargs) != false)
+				$this->_w = $kwargs['w'];
+			else
+				$this->_w = 0.0;
 		}
 		else
-			print( 'Invalid paramaters' . PHP_EOL );
+			print( 'Vector: Invalid paramaters' . PHP_EOL );
 		if (self::$verbose == true)
 			print( $this . ' constructed' . PHP_EOL );
 		return;
