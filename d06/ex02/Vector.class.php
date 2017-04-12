@@ -73,7 +73,7 @@ Class Vector {
         }
 	
 	public function scalarProduct($k) {
-		$dest = new Vertex( array( 'x' => -$this->_x * $k, 'y' => -$this->_y * $k, 'z' => -$this->_z * $k ) );
+		$dest = new Vertex( array( 'x' => $this->_x * $k, 'y' => $this->_y * $k, 'z' => $this->_z * $k ) );
 		return new Vector( array( 'dest' => $dest ) );
         }
 
