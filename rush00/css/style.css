@@ -1,0 +1,503 @@
+*
+{
+	box-sizing: border-box;
+}
+
+html, body, nav
+{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+html
+{
+}
+
+body
+{
+	background-color: #ecf0f1;
+	clear: both;
+}
+
+header
+{
+	position: fixed;
+	float: left;
+	height: 100%;
+	width: 85px;
+	margin: 0;
+	padding: 0;
+	background-color: #202020;
+	color: white;
+	bottom: 0;
+}
+
+h1
+{
+	font-weight: 900;
+	font-size: 24pt;
+	margin-left: 105px;
+}
+
+nav
+{
+}
+
+li
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	height: 12vh;
+	min-height: 85px;
+	list-style: none;
+	text-align: center;
+	vertical-align: middle;
+	border-top: dashed 1px #505050;
+}
+
+ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+.band
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 85px;
+	background-color: white;
+	padding-right: 10px;
+}
+
+main
+{
+	float: left;
+	display: flex;
+	justify-content: left;
+	flex-wrap: wrap;
+	position: absolute;
+	top: 85px;
+	left: 85px;
+}
+
+.container
+{
+	border: solid blue 1px;
+	clear: both;
+}
+
+#logo
+{
+	height: 85px;
+	background-color: white;
+	border: none;
+}
+
+.product
+{
+	/*border: solid 1px red;*/
+	/*float: left;*/
+
+	margin: 20px 10px 10px 20px;
+	padding: 20px 20px 20px 20px;
+	width: 300px;
+	height: 300px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 3px 5px #888888;
+	text-align: center;
+}
+
+.product:hover
+{
+	box-shadow: 0 3px 15px #444444;
+}
+
+.illustration
+{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.titre
+{
+	font-size: 14pt;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.button:hover
+{
+	background-color: black;
+}
+
+.filter
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 10px 10px 20px;
+	padding: 15px;
+	min-width: 100px;
+	width: 100%;
+	height: 80px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 2px 7px #888888;
+}
+
+select
+{
+	height: 30px;
+	font-size: 12pt;
+	font-family: sans-serif;
+	padding: 3px 3px 3px 3px;
+}
+
+.submit
+{
+	margin-left: 10px;
+}
+
+.add
+{
+	text-align: center;
+}
+
+.description
+{
+	text-align: justify;
+	font-size: 10pt;
+	font-family: serif;
+}
+
+#category
+{
+	border: solid 1px grey;
+}
+
+/*------------ login.php ------------------*/
+.zone
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+	height: 300px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 3px 5px #888888;
+	margin: 20px 10px 10px 20px;
+	padding: 5px 5px 5px 5px;
+}
+
+.zonelog
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+	height: 300px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 3px 5px #888888;
+	margin: 20px 10px 10px 20px;
+	padding: 5px 5px 5px 5px;
+}
+
+/*------------- administrator.php ------------*/
+
+.command
+{
+	
+	width: 580px;
+	height: 300px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 3px 5px #888888;
+	margin: 20px 10px 10px 20px;
+	padding: 5px 5px 5px 5px;
+	overflow: scroll;
+}
+
+.panel
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 580px;
+	height: 300px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 3px 5px #888888;
+	margin: 20px 10px 10px 20px;
+	padding: 5px 5px 5px 5px;
+}
+
+
+.zonecom h2
+{
+	width: 580px;
+	margin-left: 20px;
+	color: #505050;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+/*------------- createuser.php ----------------*/
+
+.box
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	vertical-align: middle;
+	width: 320px;
+	height: auto;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 3px 5px #888888;
+	margin: 20px 10px 10px 20px;
+	padding: 5px 5px 5px 5px;
+}
+
+/*------------- edituser.php ----------------*/
+.box2
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 160px;
+	height: 160px;
+	background-color: #e74c3c;
+	border-radius: 10px;
+	box-shadow: 0 3px 5px #888888;
+	margin: 20px 10px 10px 20px;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+	font-size: 16pt;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+.box3
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 160px;
+	height: 160px;
+	background-color: #3498db;
+	border-radius: 10px;
+	box-shadow: 0 3px 5px #888888;
+	margin: 20px 10px 10px 20px;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+	font-size: 16pt;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+/*------------- deleteuser.php ----------------*/
+.boxdelete
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 300px;
+	height: 300px;
+	background-color: red;
+	border-radius: 10px;
+	box-shadow: 0 3px 5px #888888;
+	margin: 20px 10px 10px 20px;
+	padding: 5px 5px 5px 5px;
+}
+
+
+/*------------- logout.php ----------------*/
+
+.logout_msg
+{
+	margin-left: 20px;
+}
+
+/*------------- logout.php ----------------*/
+.cart
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 580px;
+	height: auto;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 3px 5px #888888;
+	margin: 20px 10px 10px 20px;
+	padding: 5px 5px 5px 5px;
+}
+
+/*------------- create.php ----------------*/
+.zonecreate
+{
+	display: flex;
+	justify-content: center;
+	width: 300px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 3px 5px #888888;
+	margin: 20px 10px 10px 20px;
+	padding: 5px 5px 5px 5px;
+}
+
+/*------------- basket.php ----------------*/
+.entete
+{
+	font-family: sans-serif;
+	color: grey;
+	display: flex;
+	justify-content: space-between;
+}
+
+.row
+{
+	border-top: 1px dashed black;
+	display: flex;
+	justify-content: space-between;
+}
+
+.mini
+{
+}
+
+.name
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.quantity
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.price
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pu
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.total
+{
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+
+.lastrow
+{
+	border-top: 2px solid black;
+	height: 65px;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	text-align: right;
+	flex-direction: row-reverse;
+}
+.finalprice
+{
+	margin-left: 20px;
+	font-size: 18pt;
+	font-weight: 100;
+	color: #2ecc71;
+	font-family: sans-serif;
+}
+
+.checkout
+{
+	position: fixed;
+	left: 680px;
+	top: 85px;
+	height: 300px;
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 3px 5px #888888;
+	margin: 20px 10px 10px 20px;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 20pt;
+	font-family: sans-serif;
+}
+
+.line
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center; 
+	border-top: 1px dashed black;
+}
+
+.line1
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: sans-serif;
+	font-weight: 100;
+	font-size: 14pt;
+	color: grey; 
+}
+
+.ppp
+{
+	color: #2ecc71;
+}
+
+.videpanier
+{
+	position: fixed;
+	left: 680px;
+	top: 400px;
+	height: 300px;
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 3px 5px #888888;
+	margin: 20px 10px 10px 20px;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 20pt;
+	font-family: sans-serif;
+}
