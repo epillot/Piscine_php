@@ -11,9 +11,7 @@
         margin: auto;
         margin-top: 400px;
         background-color: red;
-        /*width: 200px;
-        height: 200px;*/
-        border-radius: 100%;
+                border-radius: 100%;
       }
     </style>
   </head>
@@ -25,14 +23,10 @@
       var color = new Array('red', 'green', 'blue');
       var i = 0;
       function inflate(){
-        //balloon.style.backgroundColor = 'red';
         var newSize = parseInt(elem.style.width) + 10;
-        if (newSize < 420)
-        {
-          elem.style.width = newSize + 'px';
-          elem.style.height = newSize + 'px';
-        }
-        else
+        elem.style.width = newSize + 'px';
+        elem.style.height = newSize + 'px';
+        if (newSize > 420)
         {
           elem.style.width = '200px';
           elem.style.height = '200px';
@@ -42,7 +36,7 @@
       }
       function deflate(){
         var newSize = parseInt(elem.style.width) - 5;
-        if (newSize > 200)
+        if (newSize >= 200)
         {
           elem.style.width = newSize + 'px';
           elem.style.height = newSize + 'px';
